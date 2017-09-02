@@ -1,6 +1,7 @@
 package com.boaroli.projetofinal.resources;
 
 import com.boaroli.projetofinal.model.Interessado;
+
 import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
@@ -15,7 +16,7 @@ import javax.ws.rs.core.Response;
 
 @Path("/interessados")
 @Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.TEXT_PLAIN)
+@Produces(MediaType.APPLICATION_JSON)
 @Stateless
 public class InteressadoResource {
     
