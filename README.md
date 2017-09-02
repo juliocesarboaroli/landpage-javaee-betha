@@ -1,6 +1,6 @@
 # Orientações
 
-O datasource do projeto foi adicionado diretamento no servidor, portanto é necessário fazer a configuração do mesmo.
+O datasource do projeto foi adicionado diretamente no servidor, portanto é necessário fazer a configuração do mesmo.
 
 ```xml
 <datasource jndi-name="java:jboss/datasources/PostgresDS" pool-name="PostgresDS" enabled="true" use-java-context="true">
